@@ -5,9 +5,16 @@
   "description": "Chrome extension for EmoryGPT",
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/chat*"],
+      "matches": ["https://chat.openai.com/*"],
       "css": ["app/style.css"],
-      "js": ["app/actions/showPopup.js", "app/content.js"]
+      "js": [
+        "app/data.js",
+        "app/formulas/salespage.js",
+        "app/formulas/optin.js",
+        "app/actions/showPopup.js",
+        "app/actions/runPrompt.js",
+        "app/index.js"
+      ]
     }
   ]
 }

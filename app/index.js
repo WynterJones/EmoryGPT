@@ -15,7 +15,7 @@ const emory = {
     emoryContainer.innerHTML = `<button class="emory_button_dropdown">Write Page Copy</button>
     <div class="emory_button_dropdown-content">
       <a href="#" data-type="sales">Sales Copy</a>
-      <a href="#" data-type"optin">Email Optin</a>
+      <a href="#" data-type="optin">Email Optin</a>
     </div>`
     document.body.appendChild(emoryContainer)
 
