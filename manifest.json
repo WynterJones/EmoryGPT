@@ -1,0 +1,13 @@
+{
+  "name": "EmoryGPT",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Chrome extension for EmoryGPT",
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/chat*"],
+      "css": ["app/style.css"],
+      "js": ["app/actions/showPopup.js", "app/content.js"]
+    }
+  ]
+}
